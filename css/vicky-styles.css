@@ -1,0 +1,24 @@
+
+th {
+	border-color: #7FE1FF;
+}
+
+body {
+}
+
+table{
+	border:"";
+}
+input {
+	min-width:40px;
+	width:auto;
+	border-color:#E0E0E0;
+}
+
+.thinput {
+	border-style: solid;
+}
+
+.tdinput {
+	border-style: dotted;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<title> A simple online Auction Tool </title>
+
+<link type="text/css" rel="stylesheet" href="../css/vicky-styles.css" />
+<script language="javascript" type="text/javascript" src="../scripts/SimplexJS.js"></script> 
+<script language="javascript" type="text/javascript" src="../scripts/vicky-functions.js"></script> 
+
+</head>
+
+<body onload="init()">
+
+<div style="padding: 10px">
+<button type="button" onclick="expandTable();">Expand Table</button>
+<button type="button" onclick="contractTable();">Contract Table</button>
+<button type="button" onclick="runAuction();">Compute Results!</button>
+<button type="button" onclick="enterDummyData();">Enter Dummy Data</button>
+</div>
+
+<table id="mainTable">
+<thead id="mainTableHead">
+<tr>
+<th />
+</tr>
+</thead>
+<tbody id="mainTableBody">
+</tbody>
+</table>
+
+<table id="resultsTable">
+<tbody id="resultsTableBody">
+</tbody>
+</table>
+
+</body>
+</html>
